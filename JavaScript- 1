@@ -1,0 +1,33 @@
+// Dictionary of 5 words using JS programming language
+const dictionary = {
+    apple: "A fruit that is red, green, or yellow.",
+    banana: "A long yellow fruit.",
+    cherry: "A small, round fruit that is red or black.",
+    date: "A sweet fruit that grows on palm trees.",
+    elderberry: "A dark purple fruit that grows in clusters."
+}
+   
+// Demonstration of use of switch case statement in JS programming language
+let age = prompt("What is your age?")
+switch (age){
+    case "12":
+        console.log("You are a pre-teen.");
+        break;
+    case "13":
+        console.log("You are a teenager.");
+        break;
+    default:
+        console.log("You are an adult.");
+}
+
+// JS program whether a number is divisible either 2 or 3
+let number = parseInt(prompt("Enter a number"));
+if (number % 2 === 0 || number % 3 === 0) {
+    console.log("The number is divisible by either 2 or 3.");
+} else {
+    console.log("The number is not divisible by either 2 or 3.");
+}
+
+// print "you can drive" or "you cannot drive" based on age using tertiary object
+let a = age>= 18 ? "you can drive": "you cannot drive";
+console.log(a);
